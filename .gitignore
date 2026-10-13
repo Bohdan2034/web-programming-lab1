@@ -1,0 +1,19 @@
+
+# Залежності Node.js
+node_modules/
+
+# Файли середовища та секрети
+.env
+.env.*
+
+# Логи
+npm-debug.log*
+*.log
+
+# База SQLite (поки не додаємо локальну БД до Git)
+*.db
+*.sqlite
+*.sqlite3
+
+# Налаштування IDE
+.idea/
